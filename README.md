@@ -7,7 +7,7 @@
 
 Stack: React + MobX
 
-## [See the project]()
+## [See the project](https://opv1.github.io/youtube-viewer)
 
 ## Setup
 
