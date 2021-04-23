@@ -1,0 +1,28 @@
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  &__input,
+  &__button {
+    outline: none;
+    border: 1px solid #eee;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+  }
+
+  &__input {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  &__button {
+    transition: background 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      color: #fff;
+      background: #f00;
+    }
+  }
+}

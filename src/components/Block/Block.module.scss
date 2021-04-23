@@ -1,0 +1,21 @@
+.block {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+
+  &__example {
+    margin-bottom: 1rem;
+    font-style: italic;
+  }
+
+  &__message {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #f00;
+  }
+
+  &__author {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+}

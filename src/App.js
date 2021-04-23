@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { observer } from 'mobx-react-lite'
+import store from 'store/index'
+import Search from 'components/Search/Search'
+import Block from 'components/Block/Block'
+import Loader from 'components/Loader/Loader'
+import List from 'components/List/List'
+import styles from 'App.module.scss'
 
-function App() {
+const App = observer(() => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.app}>
+      <h1 className={styles.app__title}>
+        <i className='fab fa-youtube' />
+        YouTube Viewer
+      </h1>
+      <Search />
+      <Block />
+      {store.loading ? <Loader /> : <>{!store.message && <List />}</>}
     </div>
-  );
-}
+  )
+})
 
-export default App;
+export default App
