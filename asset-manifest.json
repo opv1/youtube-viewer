@@ -3,19 +3,19 @@
     "main.css": "/youtube-viewer/static/css/main.0b537da9.chunk.css",
     "main.js": "/youtube-viewer/static/js/main.93d95025.chunk.js",
     "main.js.map": "/youtube-viewer/static/js/main.93d95025.chunk.js.map",
-    "runtime-main.js": "/youtube-viewer/static/js/runtime-main.d1ffadbb.js",
-    "runtime-main.js.map": "/youtube-viewer/static/js/runtime-main.d1ffadbb.js.map",
-    "static/js/2.7207fc81.chunk.js": "/youtube-viewer/static/js/2.7207fc81.chunk.js",
-    "static/js/2.7207fc81.chunk.js.map": "/youtube-viewer/static/js/2.7207fc81.chunk.js.map",
-    "static/js/3.8b1979fb.chunk.js": "/youtube-viewer/static/js/3.8b1979fb.chunk.js",
-    "static/js/3.8b1979fb.chunk.js.map": "/youtube-viewer/static/js/3.8b1979fb.chunk.js.map",
+    "runtime-main.js": "/youtube-viewer/static/js/runtime-main.e48be2e5.js",
+    "runtime-main.js.map": "/youtube-viewer/static/js/runtime-main.e48be2e5.js.map",
+    "static/js/2.23e2345e.chunk.js": "/youtube-viewer/static/js/2.23e2345e.chunk.js",
+    "static/js/2.23e2345e.chunk.js.map": "/youtube-viewer/static/js/2.23e2345e.chunk.js.map",
+    "static/js/3.da409bc8.chunk.js": "/youtube-viewer/static/js/3.da409bc8.chunk.js",
+    "static/js/3.da409bc8.chunk.js.map": "/youtube-viewer/static/js/3.da409bc8.chunk.js.map",
     "index.html": "/youtube-viewer/index.html",
     "static/css/main.0b537da9.chunk.css.map": "/youtube-viewer/static/css/main.0b537da9.chunk.css.map",
-    "static/js/2.7207fc81.chunk.js.LICENSE.txt": "/youtube-viewer/static/js/2.7207fc81.chunk.js.LICENSE.txt"
+    "static/js/2.23e2345e.chunk.js.LICENSE.txt": "/youtube-viewer/static/js/2.23e2345e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d1ffadbb.js",
-    "static/js/2.7207fc81.chunk.js",
+    "static/js/runtime-main.e48be2e5.js",
+    "static/js/2.23e2345e.chunk.js",
     "static/css/main.0b537da9.chunk.css",
     "static/js/main.93d95025.chunk.js"
   ]
